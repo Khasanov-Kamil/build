@@ -45,9 +45,14 @@
   .main__container{
     display: flex;
     flex-direction: row;
+    align-items: flex-start
+  }
+  .main__img{
+    flex: 0 0 40%
   }
  .main__info{
-   margin-left: 15px
+   margin-left: 15px;
+   flex: 1 1 auto
  }
 
 } 
