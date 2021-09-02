@@ -27,10 +27,12 @@
   
   .header__title {
     font-size: 60px;
+    text-align: left;
   }
   
   .header__subtitle {
     font-size: 35px;
+    text-align: left;
   }
   
   .header__button button {
@@ -41,7 +43,7 @@
 
   }
  .container{
-   padding: 25px
+   padding: 30px
  }
   .main__container{
     display: flex;
@@ -96,7 +98,18 @@
 .catalog__img{
   min-height: 280px
 }
-
+.contact__cloud{
+  width: 100%;
+}
+.form{
+  width: 500px
+}
+.footer__section{
+  display: flex;
+}
+.footer__contact{
+  margin-right: 17px
+}
 } 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
