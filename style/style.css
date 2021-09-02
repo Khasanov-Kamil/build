@@ -537,3 +537,59 @@ h6 {
 .pop__text{
   font-size: 11px;
 }
+
+
+
+
+
+
+/* // Малые девайсы («ландшафтные телефоны», >= 576px) */
+@media (min-width: 576px) {
+  
+}
+
+/* // Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+  .header{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+  }
+  .header__container{
+    margin-left: 50px
+  }
+  .header__logo {
+    font-size: 40px;
+  }
+  .header__phone {
+    font-size: 25px;
+  } 
+  
+  .header__phone-title {
+    font-size: 25px;
+  }
+  
+  .header__title {
+    font-size: 42px;
+  }
+  
+  .header__subtitle {
+    font-size: 26px;
+  }
+  
+  .header__button button {
+    font-size: 30px;
+}
+  .header__cloud {
+    width: 150%;
+
+  }
+
+} 
+/* // Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 992px) {
+  
+}
+
+/* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px){}
