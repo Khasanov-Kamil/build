@@ -11,32 +11,33 @@
     align-content: center;
   }
   .header__container{
-    margin-left: 50px
+    margin-left: 50px;
+    align-items: flex-start;
   }
   .header__logo {
-    font-size: 40px;
+    font-size: 45px;
   }
   .header__phone {
-    font-size: 25px;
+    font-size: 30px;
   } 
   
   .header__phone-title {
-    font-size: 25px;
+    font-size: 30px;
   }
   
   .header__title {
-    font-size: 42px;
+    font-size: 60px;
   }
   
   .header__subtitle {
-    font-size: 26px;
+    font-size: 35px;
   }
   
   .header__button button {
-    font-size: 30px;
+    font-size: 35px;
 }
   .header__cloud {
-    width: 150%;
+    width: 100%;
 
   }
  .container{
@@ -54,6 +55,47 @@
    margin-left: 15px;
    flex: 1 1 auto
  }
+  .progress__cloud{
+  width: 100%;
+  }
+.progress__dcloud{
+  width: 100%;
+  } 
+  .progress__title{
+  font-size: 33px;
+}
+.progress__section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 0 0 50%
+}
+.progress__text{
+  font-size: 20px;
+}
+.progress__img{
+  width: 100px;
+}
+.progress__row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.catalog__row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.catalog__section{
+  flex: 0 0 50%;
+  padding: 0 10px
+}
+.catalog__img{
+  min-height: 280px
+}
 
 } 
 /* // Большие девайсы (десктопы, >= 992px) */
