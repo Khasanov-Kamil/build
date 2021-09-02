@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>строй</title>
   <!-- HTML -->
   <!-- Custom Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
   <header class="header">
     <div class="container header__container">
@@ -26,9 +27,162 @@
       </div>
       <div class="header__title">Строим каркасные дома</div>
       <div class="header__subtitle">За 4 месяца с <br> гарантией сроков</div>
-      <div class="header__button"><button type="button">Каталог домов</button></div>
+      <div class="header__button" data-id="popup-1"><button type="button">Каталог домов</button></div>
     </div>
   </header>
+  <div class="main">
+    <div class="container main__container">
+      <div class="main__img ibg">
+        <img src="img/present/home.jpg" alt="home" />
+      </div>
+      <div class="main__info">
+        <div class="main__title">Чем хороши <span>каркасные дома?</span></div>
+        <div class="main__text">Каркасный дом – это самая популярная технология строительства на юге и севере США, в Канаде, Норвегии и Германии. Каркасные дома сочетают в себе экономичность, энергоэффективность и экологичность.</div>
+        <div class="main__text">Благодаря своей простоте, скорости возведения и низкой цене такие дома приобретают невероятную популярность в России.</div>
+      </div>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="container progress__container">
+      <img alt="cloud" src="img/el/1.png" class="progress__cloud">
+      <div class="progress__title">Как мы строим каркасные дома</div>
+      <div class="progress__section">
+        <img alt="icon" src="img/present/builder.png" class="progress__img"></img>
+        <div class="progress__text">Разрабатываем проект и начинаем строительство</div>
+      </div>
+      <div class="progress__section">
+        <img alt="icon" src="img/present/auto.png" class="progress__img"></img>
+        <div class="progress__text">Возводим дом всего за 4 месяца с гарантией сроков</div>
+      </div>
+      <div class="progress__section">
+        <img alt="icon" src="img/present/material.png" class="progress__img"></img>
+        <div class="progress__text">Используем долговечные и экологичные материалы</div>
+      </div>
+      <div class="progress__section">
+        <img alt="icon" src="img/present/houses.png" class="progress__img"></img>
+        <div class="progress__text">В течение следующих 3 лет бесплатно обслуживаем дом</div>
+      </div>
+    </div>
+    <img class="progress__dcloud" src="img/el/dcloud.png" alt="cloud" />
+  </div>
+  <div class="catalog">
+    <div class="container catalog__container">
+      <div class="catalog__title">Выберите <span>готовый проект</span> вашего будущего дома</div>
+      <div class="catalog__section">
+        <div class="catalog__img ibg">
+          <img src="img/present/h3.jpg" alt="houses" />
+        </div>
+        <div class="catalog__subtitle">Модерн</div>
+        <div class="catalog__info">
+          <div class="catalog__text">150 кв.м площадь обьекта</div>
+          <div class="catalog__text">2 санузла</div>
+          <div class="catalog__text">3 спальни</div>
+        </div>
+        <div data-id="popup-2" class="catalog__button">
+          <button>Получить проект</button>
+        </div>
+      </div>
+      <div class="catalog__section">
+        <div class="catalog__img ibg">
+          <img src="img/present/h2.jpg" alt="houses" />
+        </div>
+        <div class="catalog__subtitle">Скандинавия</div>
+        <div class="catalog__info">
+          <div class="catalog__text">150 кв.м площадь обьекта</div>
+          <div class="catalog__text">2 санузла</div>
+          <div class="catalog__text">3 спальни</div>
+        </div>
+        <div data-id="popup-2" class="catalog__button">
+          <button>Получить проект</button>
+        </div>
+      </div>
+      <div class="catalog__section">
+        <div class="catalog__img ibg">
+          <img src="img/present/h.jpg" alt="houses" />
+        </div>
+        <div class="catalog__subtitle">Классика</div>
+        <div class="catalog__info">
+          <div class="catalog__text">150 кв.м площадь обьекта</div>
+          <div class="catalog__text">2 санузла</div>
+          <div class="catalog__text">3 спальни</div>
+        </div>
+        <div data-id="popup-2" class="catalog__button">
+          <button>Получить проект</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <div class="container contact__container">
+      <div class="contact__info">
+        <div class="contact__title">Построим дом <br /> <span>вашей мечты!</span></div>
+        <div class="contact__subtitle">
+          Заполните короткую форму и наш специалист подробно расскажет детали строительства дома
+        </div>
+      </div>
+      <div class="form">
+        <div class="form__title">Сделайте первый шаг</div>
+        <div class="form__subtitle" >Заполните форму и мы свяжемся с вами</div>
+        <input placeholder="Ваше имя" type="text" class="form__input">
+        <input placeholder="Ваш телефон" type="text" class="form__input">
+        <input placeholder="Какой дом хотите" type="text" class="form__input">
+        <button class="form__button">Получить консультацию</button>
+        <div class="form__info"></div>
+      </div>
+      <img alt="cloud" src="img/el/1.png" class="contact__cloud">
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__info">
+        <div class="footer__title">Остались вопросы?</div>
+        <div class="footer__subtitle">Пишите или звоните</div>
+      </div>
+      <div class="footer__contact">
+        <div class="footer__text">Наш телефон:</div>
+        <a href="tel:+78001231111" class="footer__link">8 (800) 123 11 11</a>
+      </div>
+      <div class="footer__contact">
+        <div class="footer__text">Наша почта:</div>
+        <a href="email:House@build.com" class="footer__link">House@build.com</a>
+      </div>
+      <div class="footer__link-img">
+        <div class="footer__subtitle">Быстрая связь:</div>
+        <div class="footer__row">
+          <a href="" class="footer__icon"><img src="img/icon/1.png" alt=""></a>
+          <a href="" class="footer__icon"><img src="img/icon/3.png" alt=""></a>
+          <a href="" class="footer__icon"><img src="img/icon/2.png" alt=""></a>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+  <!--     pop-up     -->
+  <div class="popup-1 popup">
+    <div class="popup__body">
+      <div data-popup="popup-1" class="popup-1__close pop__close">x</div>
+      <div class="popup-1__title pop__title">Вышлем вам варианты домов</div>
+      <div class="popup-1__subtitle pop__subtitle">Просто оставьте ваш телефон и email</div>
+      <input class="popup-1__input pop__input" type="text" placeholder="Номер телефона"/>
+      <input class="popup-1__input pop__input" type="text" placeholder="Email">
+      <button class="popup-1__button pop__button" type="button">Отправить</button>
+      <div class="popup-1__text pop__text">Нажимая на кнопку, вы принимаете положение и Согласие на обработку персональных данных.</div>
+    </div>
+  </div>
+  <div class="popup-2 popup">
+    <div class="popup__body">
+      <div data-popup="popup-2"="" class="popup-2__close pop__close">x</div>
+      <div class="popup-2__title pop__title">Получите подробное описание вашего дома</div>
+      <div class="popup-2__subbutton pop__subtitle">Оставтье ваши контактные данные - на них мы отправим описание проекта</div>
+      <input class="popup-2__input pop__input" type="text" placeholder="Номер телефона" />
+      <input class="popup-2__input pop__input" type="text" placeholder="Email">
+      <button class="popup-2__button pop__button" type="button">Получить проект дома</button>
+      <div class="popup-2__text pop__text">Нажимая на кнопку, вы принимаете положение и Согласие на обработку персональных данных.</div>
+    </div>
+  </div>
+  <!--      script        -->
+  <script src="script/ibg.js"></script>
   <script src="script/main.js"></script>
 </body>
+
 </html>
