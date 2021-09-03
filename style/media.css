@@ -5,15 +5,14 @@
 @media (min-width: 768px) {
   .header {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-content: center;
   }
 
   .header__container {
     margin-left: 50px;
     align-items: flex-start;
-  }
-
+  } 
   .header__logo {
     font-size: 40px;
   }
@@ -27,9 +26,8 @@
   }
 
   .header__link {
-    margin-bottom: 20px
-  }
-
+  margin-bottom: 20px
+  } 
   .header__title {
     font-size: 55px;
     text-align: left;
@@ -53,9 +51,7 @@
   .container {
     padding: 30px
   }
-  .main__title{
-    font-size: 37px;
-  }
+
   .main__container {
     display: flex;
     flex-direction: row;
@@ -71,20 +67,12 @@
     margin-left: 17px;
     flex: 1 1 auto
   }
-  .main__text{
-    font-size:19px;
-  }
-
   .progress__cloud {
     width: 100%;
   }
 
   .progress__dcloud {
     width: 100%;
-  }
-
-  .progress__title {
-    font-size: 37px;
   }
 
   .progress__section {
@@ -118,17 +106,9 @@
     align-items: center;
     justify-content: center;
   }
-
   .catalog__section {
     flex: 0 0 50%;
     padding: 0 10px;
-  }
-  .catalog__section:last-child{
-    margin-bottom: 5px
-  }
-
-  .catalog__title {
-    font-size: 37px;
   }
 
   .catalog__img {
@@ -151,10 +131,7 @@
     margin-right: 17px
   }
 
-  .contact__title {
-    font-size: 37px;
-  }
-  .popup__body{
+  .popup__body {
     width: 500px
   }
 
@@ -162,11 +139,55 @@
 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
+  .header__link {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header__container {
+    width: 100%;
+    margin: 40px;
+    align-items: flex-start;
+  }
+
+  .main__title {
+    font-size: 37px;
+  }
+
+  .main__text {
+    font-size: 19px
+  }
+
+  .progress__title {
+    font-size: 37px;
+  }
+
+  .catalog__title {
+    font-size: 37px;
+  }
+
+  .contact__title {
+    font-size: 37px;
+  }
+  .catalog__section {
+    flex: 0 0 33.333%;
+    padding: 0 14px;
+  }
+  .contact__container{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact__info{
+    text-align: left;
+    margin-right: 40px;
+  }
 }
 
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
- .container{
-   width: 900px
- }
+  .container {
+    width: 900px
+  }
 }
