@@ -357,6 +357,7 @@ body{
 
 /*==     contact    == */
 .contact{
+  padding: 23px 0;
   width: 100%;
   position: relative;
   background-image: url("../img/bg/man.jpg");
