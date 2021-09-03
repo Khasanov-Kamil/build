@@ -144,7 +144,9 @@ h6 {
   text-align: center;
   margin-bottom: 40px
 }
-
+.header__link{
+  margin-bottom: 10px
+}
 .header__phone {
   font-size: 20px;
   margin-bottom: 5px
@@ -160,7 +162,7 @@ h6 {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 
 .header__subtitle {
@@ -178,6 +180,8 @@ h6 {
   color: #404040;
   padding: 20px 50px;
   border-radius: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   box-shadow: 0 4px 0 #B47205, 0px 0px 35px #FFA320;
   transition: transform 0.2s ease
 }
@@ -470,9 +474,6 @@ h6 {
 .footer__icon{
   padding: 0 5px
 }
-.footer__row{
-  padding: 17px 0
-}
 
 /*    popup    */
 .popup{
@@ -487,7 +488,7 @@ h6 {
   justify-content: center;
   visibility: hidden;
   opacity: 0;
-  transition: all 0.1s ease
+  transition: all 0.3s ease
   
 }
 .popup_active{
